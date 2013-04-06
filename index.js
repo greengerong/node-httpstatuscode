@@ -1,7 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var $ = require('jquery');
-var output = "httpStatusCode.js";
+var output = "httpStatusCode/index.js";
 (function(){
     
     String.format = function() {
