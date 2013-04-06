@@ -36,7 +36,7 @@ var output = "httpStatusCode.js";
         var status = {};
         rows.each(function(i,row){
             status[$(row).find("td:eq(1)").text()] = 
-                $(row).find("td:eq(2)").text().match(/\d+/).toString();
+                parseInt($(row).find("td:eq(2)").text().match(/\d+/).toString());
         });
        return status;
     };
