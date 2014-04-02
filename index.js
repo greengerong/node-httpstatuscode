@@ -43,7 +43,7 @@ var output = "httpStatusCode/index.js";
      
     function generateCode(status){
        var code = "";
-       code += "exports.httpStatusCode = " + JSON.stringify(status) + ";";
+       code += "module.exports = " + JSON.stringify(status) + ";";
        return code;
     };
     
