@@ -13,7 +13,7 @@ npm install httpstatuscode
 //demo:
 
 
-var httpStatusCode = require("httpstatuscode").httpStatusCode;
+var httpStatusCode = require("httpstatuscode");
 
 var toBeEqual = function (actual,expected){
     if(actual !== expected){
